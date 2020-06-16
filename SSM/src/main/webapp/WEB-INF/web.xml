@@ -12,7 +12,7 @@
   
   <!-- 启动spring容器 -->
   <context-param>
-  	<param-name>contextLoaderListener</param-name>
+  	<param-name>contextConfigLocation</param-name>
   	<!-- 加载某一处spring配置文件的位置 -->
   	<param-value>classpath:applicationContext.xml</param-value>
   </context-param>
