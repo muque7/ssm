@@ -35,6 +35,9 @@
   	<property name="configLocation" value="classpath:mybatis-config.xml"></property>
   </bean>
   
+  <bean id="userService" class="com.lc.service.UserServiceImpl">
+  	
+  </bean>
   
   
 </beans>
